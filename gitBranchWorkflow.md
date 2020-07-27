@@ -122,8 +122,8 @@
     ------- 输出 --------
     pick 4b464d6 [IMP] contact_extend: Some messages.
     
-    # pick 4b6546d Some code. 将 pick 修改为 fixup.
-    fixup 4b6546d Some code.
+    # pick 4b6546d Save code. 将 pick 修改为 fixup.
+    fixup 4b6546d Save code.
     
     pick 9daw223 [IMP] contact_extend: Some messages.
     pick 09sef33 [IMP] contact_extend: Some messages.
