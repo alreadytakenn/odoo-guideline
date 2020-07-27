@@ -256,9 +256,9 @@ git commit -am '[REL] Some messages'    # 现在使用 git commit -am 来跟踪�
 git tag 1.1.0                           # 最后需要为这一次提交打上版本标签.
 
 # 合并到开发分支
-git checkout release-1.0.0              # 如图4.3, 合并到开发分支时同样使用 rebase 方式来确保使用快进式合并.
-git pull origin develop --rebase        # 假设我们在修复发布分支上的问题时, 开发分支上又有了新的提交, 在图4.3中用紫色表示.
-                                        # 那么为保证开发分支的提交记录直观性和发布分支具体的发布点的正确性. 
+git checkout develop                    # 如图4.3, 合并到开发分支时同样使用 rebase 方式来确保使用快进式合并.
+git pull origin develop                 # 假设我们在修复发布分支上的问题时, 开发分支上又有了新的提交, 在图4.3中用紫色表示.
+git rebase release                      # 那么为保证开发分支的提交记录直观性和发布分支具体的发布点的正确性. 
                                         # 我们将开发分支上的新提交(三个紫色的提交) rebase 到发布分支的最新提交上, 如图4.4.
                                         # 最后进行合并, 得到开发分支的提交记录如图4.5所示.
                                         
