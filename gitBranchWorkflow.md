@@ -44,7 +44,7 @@
 # 分支操作的演示  
 
 ## 1. 创建个人分支  
-命名时需符合个人分支命名规范 __feature-<USER-NAME>__  
+命名时需符合个人分支命名规范 __feature-$USER_NAME__  
 例如: feature-ben  
 
     ```
